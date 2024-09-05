@@ -1,0 +1,56 @@
+.stock-data-container {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-top {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.form-items {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+select,
+button {
+  background-color: black;
+  border: 1px solid rgb(169, 111, 255);
+  color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 3rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
